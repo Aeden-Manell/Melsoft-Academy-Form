@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melsoft Academy- Survey Form</title>
+</head>
+
+<body>
+
+    <section>
+        <img src="https://melsoftacademy.com/wp-content/uploads/2022/09/Blue-120x120.png"> <!-- Logo of Melsoft Academy -->
+        <h1>Melsoft Academy - Survey Form</h1> <!-- Heading of the survey form -->
+        <form method="post"> <!-- Form for user input -->
+    
+            <fieldset>
+                <legend>Add User:</legend> <!-- Legend for the fieldset -->
+    
+                <label for="first-name">First name:</label> <!-- Label for the first name input field -->
+                <input type="text" id="first-name" name="first-name" required><br><br> <!-- Input field for the first name -->
+    
+                <label for="last-name">Last name:</label> <!-- Label for the last name input field -->
+                <input type="text" id="last-name" name="last-name" required><br><br> <!-- Input field for the last name -->
+    
+                <label for="email">Email:</label> <!-- Label for the email input field -->
+                <input type="email" id="email" name="email" required><br><br> <!-- Input field for the email -->
+    
+                <label for="status">Status:</label> <!-- Label for the status select field -->
+                <select id="status" name="status"> <!-- Select field for the status -->
+                    <option value="student">Student</option> <!-- Option for student status -->
+                    <option value="teacher">Teacher</option> <!-- Option for teacher status -->
+                    <option value="guest">Guest</option> <!-- Option for guest status -->
+                </select><br><br>
+    
+                <p>Choose your favourite programming language:</p> <!-- Paragraph for selecting favorite programming language -->
+                <input type="radio" id="html" name="favourite_language" value="HTML"> <!-- Radio button for HTML -->
+                  <label for="html">HTML</label>
+                  <input type="radio" id="css" name="favourite_language" value="CSS"> <!-- Radio button for CSS -->
+                  <label for="css">CSS</label>
+                  <input type="radio" id="javascript" name="favourite_language" value="JavaScript"> <!-- Radio button for JavaScript -->
+                  <label for="javascript">JavaScript</label><br><br>
+    
+                <label for="comments">Comments:</label></p> <!-- Label for the comments textarea -->
+                <textarea id="comments" name="comments" rows="2" cols="40" placeholder="Any Comments?">
+                </textarea><br><br> <!-- Textarea for user comments -->
+    
+                <label for="current-date">Current Date:</label><br> <!-- Label for the current date input field -->
+                <input type="date" id="current-date" name="current-date"><br><br> <!-- Input field for the current date -->
+    
+                <input type="checkbox" id="newsletter" name="newsletter"> <!-- Checkbox for newsletter signup -->
+                <label for="newsletter"> Sign up for the newsletter</label><br>
+    
+                <input type="checkbox" id="terms-conditions" name="terms-conditions"> <!-- Checkbox for agreeing to terms and conditions -->
+                <label for="terms-conditions"> Agree to terms and conditions</label><br><br>
+    
+                <input type="submit" value="Submit" href><br> <!-- Submit button for form submission -->
+    
+            </fieldset>
+        </form>
+    </section>
+
+    
+</body>
+
+</html>
